@@ -33,3 +33,4 @@ class User(AbstractUser):
         """Return a friendly name that always has a value."""
 
         return self.display_name or self.email.split("@")[0]
+        
